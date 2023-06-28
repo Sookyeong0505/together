@@ -18,6 +18,8 @@ public class HyelyungPractice extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.setCharacterEncoding("utf-8");
+		response.setContentType("utf-8");
 		response.getWriter().append("수경이한테 맥주창고 티켓 하나 빌렸음");
 	}
 }
