@@ -11,5 +11,6 @@
 	<a href="<%= request.getContextPath() %>/2hyelyung"></a>
 	<a href="<%= request.getContextPath() %>/sookyeong"></a>
 	<a href="<%= request.getContextPath() %>/sookyeong2"></a>
+	<h2>오늘 동치미 국수 짱</h2>
 </body>
 </html>
